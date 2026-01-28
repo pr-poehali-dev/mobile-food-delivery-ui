@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -62,6 +62,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'linear-gradient(135deg, #FF6B6B 0%, #FF8E53 50%, #FFA07A 100%)',
+				'gradient-secondary': 'linear-gradient(135deg, #667EEA 0%, #764BA2 100%)',
+				'gradient-accent': 'linear-gradient(135deg, #F093FB 0%, #F5576C 100%)',
+				'gradient-warm': 'linear-gradient(135deg, #FA709A 0%, #FEE140 100%)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
